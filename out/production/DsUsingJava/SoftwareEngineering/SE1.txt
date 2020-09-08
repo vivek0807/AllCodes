@@ -1,0 +1,288 @@
+-waterfall model
+    Linear sequential,
+    requiremnets must be clear
+    each phase must be clear about start and stop
+    -cant get back to previous phase
+
+    Simple & easy to use
+    Least rsources required
+    visible
+    phase wise completion
+    Best for small project
+    Equivalent importance to all levels
+    contract related issues are possible
+    Increased development time & cost
+    Rigid
+    BEST FOR CREATING NEWER VERSIONS
+-Vmodel
+    -extension of waterfall model
+    -verification & validation go hand in hand
+    -coding joings the start and end levels
+    -Defects are found at a very early stage
+    -Testing goes hand in hand
+
+    _least flexible and rigid
+    -hard to update
+-Prototype Model
+    Two Types of Prototype
+        -Throw Away
+            -requirements are unclear
+            -small part is developed and feedback is taking
+            -then actual is thrown
+            -Bad practice
+            -rapid construction
+            -final requiremnets
+        -Evolutionary
+            when requirements are unstable
+            -initial prototype is presented to the user
+                then the feedback is used to update the prototype
+            -software is developed incrementally
+            -in smaller portions at a time
+            -Best for client communicationa and satisfaction
+      -Missing Doucumentation
+
+
+-RAD(rapid application Model)
+    High Speed development
+    Short term Life cycle
+    -developed by difrent people and assembled
+    -buisness modelling
+    -process modeling
+    -Application generation
+    -Testing & turn over
+
+    =NOT SUITABLE for BIG projects
+-Spiral Model
+    proposed by Barry bohem in 1986
+    -suited for projects that are risky
+    -Repeatedly passes through the phases
+    Risk analysts--
+    Lot of time is spent
+    Costly
+-ETVX
+ by IBM
+    -each phase produces output
+====SDLC is framework==
+    high quality
+    definition of process of development work
+    -planning(Feasiblity)
+    -Requiremnt Analysis
+    -Design(use of SRS(Software requirement Specification)-primary artifact of analysis phase )
+    -Implementation
+    -Testing
+    -Maintanace(Modifications)
+
+
+==Design==
+    High Level Design
+        -describes how the modules communicate with each other
+        -interface design
+    Low Level Design
+        -Algorithm Design
+         -consists of data design
+
+-Unit Testing is performed to ensure functional requirements
+=Software Crisis=
+    Software fails
+    Crashing
+    Expensing
+    -Harder to debug
+    late delivery
+    -consuming large resources
+
+=Testing=
+    Unit testing-Individual modules are tested out separately for functional correctiness
+    System Testing-Whole system is tested for fucntional requirements
+    Integration Testing-Checks interface errors and componets
+    Acceptance Testing-end user checks for all correctness
+
+ =Prototyping=
+ USED   by end user for verification of product
+========================================================
+        REQUIREMENT ANALYSIS
+
+        -THE boundary of the system
+        -filtration
+        -information selecetion
+        -changing requirements
+
+        Difficulties:-
+        -Misunderstanding
+        -different world/trade offs
+        -complexity analysis
+        -unecessary details
+
+ Phases-->Analysis phase-->specification phase
+
+ Requirement Analyst- who understands the user requirements
+                      prepares SRS
+                      checks for ambiguity and inconsistencies
+
+                      SRS documents consits only what needs to be done, Elaborates teh need
+                      Signed by stake Holders
+
+                      functional requirements
+                      nonfunctional
+                      constraints
+
+
+                      IEE830 strandard template for SRS
+
+                      Entity relationship diagram
+                      square- entity/object
+                      rohobus- realtionship
+                      ecllipse-Attribute
+                      cadrinality,-raltioship
+                      optionality- madatory on not
+
+======================================================
+    BASICS OF TESTING
+
+    running the programs with intended fault possiblities
+    Evaluate, works as expected
+
+    Steps:\
+        -test plan
+        -test Design
+        -test Execution
+        -Report Developer
+        -Verify
+        -Close
+
+
+        Automated Testing-Junit/N Unit/Bugzilla
+        Levels:
+
+        Integration Testing-after integrating modules to test interface errors
+            done by deelopers or tertters
+            can be done top-down/bottom up
+            bottom up uses-Stub-Temporary module
+            Top down uses -Driver
+
+        System Testing-done completely by tester
+            testing both functional and non- functional requirements
+            Stress testing
+            Usablity Testing
+            Regression testing-during replacemnet
+        Acceptance Testing
+            Alpha-done by developers
+            Beta-done before clients
+
+
+            Tyeps of testing:-
+            Static Testing
+                review walkthrough inspection
+                Testted manually, does not executes
+                Author
+                moderator-reviewer
+                Reader
+                recorder
+                inspector-sunita medaam
+                use of report material such as SRS,test plans
+            Dynamic Testing
+                blackbox Testing
+                -tested without internal knowledge
+                    also called specification based testing
+                    Error guessing
+                    ad hoc approach
+                    decision table
+                whitebox testing
+                    -should have through knowledge of programming and after
+                    understanding the code
+                    -Basis path testing
+                         -statement coverage
+                         -predicate-condition
+                         -loop coverage
+                         braking into McCabe's Number
+
+
+
+
+
+
+                         boundary box-false
+                         black box testing
+                         walk thru false
+
+                         req spec, analysis of gathered, (req gather,analysis)
+                         elicitaion is not here
+
+=============================SELENIUM=================================
+Automatic tests:
+    -testcases are writtenn in scripts and automationn tools are used
+    -selenium-functional Automotive testing
+    -multi language support and in-built reporting mechanism
+
+   -Selenium IDe-RC-webDriver-Selenium Grid
+   -uses locators
+   -Test NG is next generation tesing framework better than Junit
+    -support annotaions
+    -flixible plug in
+    -load testing, supprts mutithread testing
+    -Xpath is used to define parts of XML document
+    -Xpath Expression/testing/module[2]
+    -ElementnoVisibleException
+        impplict-wait for given time
+        explicut-waits for given condition
+        fluent-find till wait (using Thread.sleep is not recommended) using frequncy
+
+        gettxt
+        void dismiss
+        void sendKeys
+        void accept
+
+============================================================================
+Software Maintenance
+-Software engineering
+-Architectural transformation
+-Software re-engineering
+-Change Strategies:-
+    changes are made keeping the structure intact
+    =Architectural tranformation
+    =Spftware reengineering= full redesign
+
+ -Types of maintenance
+    -corrective-resolve cofing errors
+    -Adaptive-done to adapt with intranl evolution,invoked by external needs
+    -perfective-polish the quality
+    -Preventive-changes made to prevent fault in the future
+
+    cycle-->
+    change request-->change management--> impact analysys--> System release planning-->change implementation->System release
+
+Maintenance costs can be greater than development costs:
+=================================================================================
+Configuration and version Control:-
+
+-configration repositiry is a cntral repository that keeps information about all updates
+
+-Read only by default
+
+-Check in- operation used to make available update to others
+-Check out- start to work
+
+-Change management
+-synchronization Control
+-Change control Board
+
+================================================================================
+Agile Technology
+	iterative and repetaive 
+	close communicationa
+	less documentation
+	continuous testing
+	
+when rapid delevery is required, agile is best
+	-scrum
+	-Dynamic System development
+		Has 8 stages, backtracking is easier
+		Most senor- executive Sponsor
+		Project mangager- resposible for delevery
+		Frequent release
+		Active invlovement of user
+	-Crystal
+	-feature Driven
+	-Lean
+	-Extreme
+
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="StudentList" type="StudentListType"/>
+  <xs:complexType name="nameType">
+    <xs:sequence>
+      <xs:element name="firstname">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Savitha"/>
+            <xs:enumeration value="Vinitha"/>
+            <xs:enumeration value="Steve"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="lastname" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addressType">
+    <xs:sequence>
+      <xs:element name="doorno">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="35"/>
+            <xs:enumeration value="9"/>
+            <xs:enumeration value="15"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="street">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="NRG Street"/>
+            <xs:enumeration value="Randy Street"/>
+            <xs:enumeration value="CMH Road"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="city">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="coimbatore"/>
+            <xs:enumeration value="Chennai"/>
+            <xs:enumeration value="Bangalore"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="pincode">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="641038"/>
+            <xs:enumeration value="600025"/>
+            <xs:enumeration value="560039"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="StudentType">
+    <xs:sequence>
+      <xs:element type="nameType" name="name"/>
+      <xs:element name="age">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="20"/>
+            <xs:enumeration value="21"/>
+            <xs:enumeration value="19"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="addressType" name="address"/>
+      <xs:element name="department">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="CSE"/>
+            <xs:enumeration value="ECE"/>
+            <xs:enumeration value="EEE"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="rollno" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="StudentListType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="StudentType" name="Student"/>
+    </xs:choice>
+  </xs:complexType>
+</xs:schema>

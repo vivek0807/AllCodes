@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="asm-3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aspectjweaver-1.6.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cglib-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.aop-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.asm-3.1.2.release.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.beans-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.context-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.context.support-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.core-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.expression-3.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.jdbc-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.transaction-3.1.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

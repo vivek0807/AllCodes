@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script >
+    $(document).ready(function () {
+        $('.addd-row').click(function () {
+            alert("clicked")
+            var name=$('#name').val();
+            var markup="<tr><td colspan='2'><input type='checkbox' name='record'></td><td colspan='2'>"+name+"</td> </tr>";
+            $('table tbody').append(markup);
+
+        });
+        $('.delete-row').click(function () {
+            $('table tbody').find("input[name='record']").each(function () {
+                if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            })
+        })
+    })
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="frm">
+    Name:<input type="text" id="name" placeholder="Name">
+    <input type="button" class="addd-row" value="Add Customer">
+    <table>
+        <thead>
+        <tr >
+            <td colspan="2">Select</td>
+            <td colspan="2">Name</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="2"><input type="checkbox" name="record"></td>
+            <td colspan="2"> Default Name</td>
+        </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-row" >DeleteCustomerDetails</button>
+</form>
+</body>
+</html>

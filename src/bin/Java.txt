@@ -1,0 +1,66 @@
+-invented by james goosling
+-platform independent
+-portable
+-architecture neutral
+-JVM translates the java code to native code that a machine will understand[JVM IS PLATFORM DEPENDENT]
+-JRE consists of teh JVM and libraries and core classes
+-java compiler-javac
+-java documenter- javadoc
+-java archiver -jar
+
+
+-development Env
+-Execution Env-JDK depends on OS
+				-byte code converter as the .class file that execute on JVM
+				-the JRE further translates to native language
+				
+-Editions Of java
+	Standard- J2SE	OR JSE
+	Enterprise -J2EE- tools to develop standlone apps & servelets
+	Micro Edition- J2ME- for mobile applications and hand held devices
+	
+=====================
+DATA TYPES & OPERATORS
+identifiers are names given to class,variables and methods
+$name,_name
+-objects memory are allocated in heap
+
+Types of conversion- 
+	IMPLICIT CONVERSION--when lower size data type assigned to higher size data type conversion is done automaticllay
+	EXPLICIT CONVERSION--Typecasting, to lower sized data type
+	
+	-If there are two operators of equal priority, then exression is evaluated as per associativity
+	-only for conditional operator associativity folow right to left
+===============
+
+
+CONTROL STRUCTURES	
+
+===============
+Static methods
+-static member can access stativ variables only
+-non static can access both kind of members
+- static block can used to run a direct code before main
+===============
+Wrapper class
+there are 8 wrapper classes that bind the primitive data type to reference 
+-All the wrapper class has inbuilt methods that help in certain operations
+-Inter i=new Integer(0);
+-for value= int j=i.intValue();
+-Integer i=10; Boxing
+int j=i Unboxing;
+-wrapper classes are contained in java.lang package
+Available since java 5
+** not for every primitive dataType there is a wrapper class
+===================
+Packages
+-They provide access restriction
+-can contain classes subpackages interfaces
+-They must be the first statement in code else Lead to COMPILE TIME JAVA.
+classpath can be set as--%classpath%<location of the .class file>
+- FOR ANY STATIC method or value to be imported as static, IT MUST BE DECLARED AS PUBLIC STATIC
+-For any method to be called from another package it MUST BE DECLARED AS STATIC
+ methods can also be called as new X().display(100);
+
+
+	

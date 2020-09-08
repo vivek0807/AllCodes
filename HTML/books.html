@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<form autocomplete="on">
+
+    <fieldset  >
+        <legend >Customer Info</legend>
+        <table cellspacing="5" cellpadding="10">
+            <tr >
+                <td colspan="1">
+        <label for="cusname">Name</label>
+        <input autofocus name="cusname" required="required" type="text" placeholder="Enter your name" >
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="telephone">Telephone</label>
+                <input pattern="([0-9]{3}(-[0-9]{3})(-[0-9]{4}))" name="telephone" required="required" type="tel" placeholder="Pattern: 234-567-8910" >
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">Email address</label>
+                    <input type="email" name="mail" required="required" placeholder="Enter your email address" multiple>
+                </td>
+
+            </tr>
+
+        </table>
+
+    </fieldset>
+    <fieldset id="b" >
+        <legend >Books</legend>
+    <table cellspacing="4" cellpadding="5">
+        <tr>
+            <td>
+
+                <input name="book" list="books">
+                <datalist id="books" name="books">
+                    <option value="HTML5 - Bruce Lawson and Remy Sharp" selected></option>>
+                    <option value="HTML5 : Up and Running - Mark Pilgrim">
+                    <option value="Head First HTML5 Programming - Eric Freeman">
+                    <option value="Mastering HTML,CSS and JavaScript - Laura Lemay">
+                </datalist>
+                <label for="quantity">Quantity (Maximum 5)</label>
+                <input name="quantity" id="quantity" type="number" max="5" min="1">
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

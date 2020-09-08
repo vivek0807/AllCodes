@@ -1,0 +1,8 @@
+==============String============
+String.charAt(postion)
+String.replace(i,v)-replaces first occurence of the character
+-String.compareaTo- returns value of difference
+-Character.toUppercase
+-String.toUppercase
+System.out.printf( "%-15s%03d",s,n);
+===========================

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PersonList" type="PersonListType"/>
+  <xs:complexType name="nameType">
+    <xs:sequence>
+      <xs:element name="firstname" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Zeenath"/>
+            <xs:enumeration value="Simon"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="lastname" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addressType">
+    <xs:sequence>
+      <xs:element name="doorno">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="33"/>
+            <xs:enumeration value="7"/>
+            <xs:enumeration value="25"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="street">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Raidu Street"/>
+            <xs:enumeration value="Raja Street"/>
+            <xs:enumeration value="cox street"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="city">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="coimbatore"/>
+            <xs:enumeration value="Chennai"/>
+            <xs:enumeration value="Bangalore"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="pincode">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="641039"/>
+            <xs:enumeration value="600005"/>
+            <xs:enumeration value="560025"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PersonType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="adhaarno"/>
+      <xs:element type="nameType" name="name"/>
+      <xs:element name="age">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="28"/>
+            <xs:enumeration value="75"/>
+            <xs:enumeration value="25"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="addressType" name="address"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="Category" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="PersonListType">
+    <xs:sequence>
+      <xs:element type="PersonType" name="Person" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

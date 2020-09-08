@@ -1,0 +1,101 @@
+<!--comments -->
+link for css
+<link rel=stylesheet type=text/css href ="filename.css">
+Mark Range(1to100)<input type="range" name="mark" id="markInputId" min="1" max="100"
+oninput="markOutputId.value = markInputId.value">
+<output name="markOutputName" id="markOutputId"></output>
+====================================================
+<style="">
+CSS 3.0
+type{}
+#id{}
+.class{}
+*default selector
+text overflow- to break long words
+wod break
+element.tag word wrap
+rgba(r,g,b.0-1)
+HSL(0-120-240)
+border
+border shadow
+margins-px
+column-rule-style
+column-rule-color
+column-rule-width
+text-transform
+=========================================================
+JQuery by John resig
+-Content Delivery Netwrok
+-Always include in
+$(document).ready(function(){
+})
+selector can be used for
+type=input,text seletor,
+filter
+text
+html val
+append
+prepend
+after
+before
+=======
+events json effects
+scroll elements
+$("div").scroll(function{
+})
+
+mouseneter
+mouseleave
+this.css---------------
+.hover
+.hide()
+.show()
+$('#id').click(function(){
+#('img').hide()
+})
+fadein
+fadeout
+slideup/down
+animate takes varoius parameters
+
+getJson
+url,[data]
+Focus and blur are form events
+
+$(funcall)
+method:stop
+fx.off=true
+animation failed on default or static
+animate-15px
+=====================================
+JAVASCRIPT
+-client side scripting laguage
+-platform independent
+-var is not mandatory for global variable
+String()
+escape
+isNAn
+ParseInt
+idexOf,lastIndexOf
+-use asynchronus call back
+EVENTS:-
+.action()
+document.formName.submit()
+on change, on submit,on reset, on blur, on click
+onclick-methodName()
+.forms[] array
+
+.resets to default value
+call return functionName
+select and text offer on change method in extra
+
+
+- every Thiing is an object with properties cookie,domain,bgcolor,title
+new RegExp()
+search String
+regulat expression Matching
+DOM-document object module
+window.innerHeight,innerWidth
+window.open/close/resizeTo
+-frame-blur,focus,setInterval,ClearInterval
+        onblur,onFocus

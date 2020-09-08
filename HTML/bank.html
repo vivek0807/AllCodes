@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body{
+        background-color: pink;
+    }
+    h1{
+        color: brown;
+        text-align: center;
+    }
+</style>
+<body>
+
+<table >
+    <tr >
+        <th colspan="2">
+            <h1>
+                ZEN BANK - LOGIN
+            </h1>
+        </th>
+    </tr>
+    <form novalidate="validate">
+    <tr>
+        <td>
+            <label >User name </label>
+        </td>
+        <td>
+            <input name="userName" type="text" placeholder="Enter your user name" required="required">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >Password</label>
+        </td>
+        <td>
+            <input name="password" type="password" pattern="[A-Za-z0-9_]{8,15}" placeholder="Enter the password" required="required">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" name="rememberMe" required="required" >
+            <label for="rememberMe">Remember me</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="Sign In">
+        </td>
+        <td>
+            <input type="reset" value="Clear">
+        </td>
+    </tr>
+    </form>
+</table>
+</body>
+</html>

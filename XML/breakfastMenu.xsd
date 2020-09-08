@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="breakfast_menu" type="breakfast_menuType"/>
+  <xs:complexType name="foodType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Turfle waffles"/>
+            <xs:enumeration value="Strawberry Belgian Waffles"/>
+            <xs:enumeration value="Berry-Berry Belgian Waffles"/>
+            <xs:enumeration value="Fried Toast"/>
+            <xs:enumeration value="Homestyle Breakfast"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="$5.95"/>
+            <xs:enumeration value="$24.6"/>
+            <xs:enumeration value="$4.78"/>
+            <xs:enumeration value="$7.68"/>
+            <xs:enumeration value="$7.95"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="description">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="This two turfle which has 2 famous product  is with real choco and maple syrup"/>
+            <xs:enumeration value="Light Belgian waffles covered with strawberries and whipped cream"/>
+            <xs:enumeration value="Light Belgian waffles covered with an assortment of fresh berries and whipped cream"/>
+            <xs:enumeration value="Thick slices made from our homemade wheat dough bread"/>
+            <xs:enumeration value="Two eggs, bacon or sausage, toast, and England popular  hash browns"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="calories">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="650"/>
+            <xs:enumeration value="900"/>
+            <xs:enumeration value="400"/>
+            <xs:enumeration value="250"/>
+            <xs:enumeration value="1500"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="breakfast_menuType">
+    <xs:sequence>
+      <xs:element type="foodType" name="food" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

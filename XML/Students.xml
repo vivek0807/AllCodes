@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StudentList  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Student rollno="2017CSE0055">
+        <name>
+            <firstname>Savitha</firstname>
+        </name>
+        <age>20</age>
+        <address>
+            <doorno>35</doorno>
+            <street>NRG Street</street>
+            <city>coimbatore</city>
+            <pincode>641038</pincode>
+        </address>
+        <department>CSE</department>
+    </Student>
+
+    <Student rollno="2017ECE1050">
+        <name>
+            <firstname>Vinitha</firstname>
+        </name>
+        <age>21</age>
+        <address>
+            <doorno>9</doorno>
+            <street>Randy Street</street>
+            <city>Chennai</city>
+            <pincode>600025</pincode>
+        </address>
+        <department>ECE</department>
+    </Student>
+
+    <Student rollno="2017EEE2044">
+        <name>
+            <firstname>Steve</firstname>
+            <lastname> Johnson </lastname>
+        </name>
+        <age>19</age>
+        <address>
+            <doorno>15</doorno>
+            <street>CMH Road</street>
+            <city>Bangalore</city>
+            <pincode>560039</pincode>
+        </address>
+        <department>EEE</department>
+    </Student>
+</StudentList>

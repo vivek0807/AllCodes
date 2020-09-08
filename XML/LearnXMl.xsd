@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="company" type="companyType"/>
+  <xs:complexType name="employeeType">
+    <xs:sequence>
+      <xs:element name="id">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="101"/>
+            <xs:enumeration value="102"/>
+            <xs:enumeration value="103"/>
+            <xs:enumeration value="104"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Ram"/>
+            <xs:enumeration value="Dinesh"/>
+            <xs:enumeration value="sathish"/>
+            <xs:enumeration value="Praveen"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="salary">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="10000"/>
+            <xs:enumeration value="20000"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="email">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="ram@gmail.com"/>
+            <xs:enumeration value="dinesh@gmail.com"/>
+            <xs:enumeration value="sathish@gmail.com"/>
+            <xs:enumeration value="praveen@gmail.com"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="companyType">
+    <xs:sequence>
+      <xs:element type="employeeType" name="employee" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

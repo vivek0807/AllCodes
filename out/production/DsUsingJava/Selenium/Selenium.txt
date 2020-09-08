@@ -1,0 +1,2 @@
+-used by brwser to find web elemnt and tags
+    using id,name,link Text(Called locators)

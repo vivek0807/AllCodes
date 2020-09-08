@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+        Enter word
+<input type="text" name="palin" id="palin"><br>
+<input type="submit" name="palinbtn" value="Check Palindome" onclick="checkPalindorme()">
+
+<script>
+    function checkPalindorme() {
+       var word=document.getElementById("palin").value;
+        word=word.toLowerCase();
+        word=word.replace(/\s/g,'');
+        var pan=word.split("").reverse().join("");
+        if(word.localeCompare(pan)==0)
+            alert("The entry is a palindrome.")
+        else
+            alert("The entry is not a palindrome.")
+        console.log(5/0)
+         revArray=[];
+    }
+
+</script>
+</body>
+</html>

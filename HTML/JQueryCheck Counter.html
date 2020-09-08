@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(window).ready(function () {
+
+
+        $('input').click(function () {
+           // alert("Clicked")
+            checked=0;
+            $('body').find("input[name='checkbox']").each(function () {
+                if($(this).is(":checked")){
+                    checked+=1;
+                }
+
+            })
+            $('#result').text(checked+" are checked.")
+           // $('#result').remove();
+        })
+
+    })
+</script>
+<body>
+
+    Red
+    <input type="checkbox" value="red" name="checkbox">
+    Blue
+    <input type="checkbox" value="red" name="checkbox">
+    Green
+    <input type="checkbox" value="red" name="checkbox">
+    Yellow
+    <input type="checkbox" value="red" name="checkbox">
+
+<div id="result"></div>
+</body>
+</html>

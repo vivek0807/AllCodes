@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+ function discounter() {
+ var gettype=document.getElementById("season").value
+     console.log(gettype)
+ var price=document.getElementById("price").value
+ price=parseInt(price)
+var dis=""
+ if(gettype==="summer")
+ {price=price-0.1*price
+     dis=" 10%"
+ }
+  else if(gettype==="newyear")
+ { price=price-0.05*price
+     dis=" 5%"
+ }
+  else if(gettype==="clearance")
+ {price=price-0.15*price
+     dis=" 15%"
+
+ }
+
+
+  console.log(price)
+     document.getElementById("discount").innerHTML="The discount is"+dis
+     document.getElementById("result").innerHTML="The discounted price is : Rs "+price
+     var txt= "pass 70% fail 30%";
+
+     var pattern = /\D/g;
+
+     var res= txt.match(pattern);
+     console.log(res);
+     return false
+ }
+</script>
+<body>
+<form onsubmit="return discounter()" >
+    <input type="number" name="price" id="price">
+    <select name="season" id="season">
+        <option value="summer">summer</option>
+        <option value="newyear">newYear</option>
+        <option value="clearance">clearance</option>
+    </select>
+    <input type="submit" value="get disount" >
+    <div id="discount"></div>
+    <div id="result"></div>
+</form>
+</body>
+</html>

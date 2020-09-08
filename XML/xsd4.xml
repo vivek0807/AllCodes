@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<company>
+
+    <employee>
+
+        <id>101</id>
+
+        <name>Ram</name>
+
+        <salary>10000</salary>
+
+        <email>ram@gmail.com</email>
+
+    </employee>
+
+    <employee>
+
+        <id>102</id>
+
+        <name>Dinesh</name>
+
+        <salary>20000</salary>
+
+        <email>dinesh@gmail.com</email>
+
+    </employee>
+
+    <employee>
+
+        <id>103</id>
+
+        <name>sathish</name>
+
+        <salary>20000</salary>
+
+        <email>sathish@gmail.com</email>
+
+    </employee>
+
+    <employee>
+
+        <id>104</id>
+
+        <name>Praveen</name>
+
+        <salary>20000</salary>
+
+        <email>praveen@gmail.com</email>
+
+    </employee>
+
+</company>

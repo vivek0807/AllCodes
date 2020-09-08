@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="hotels" type="hotelsType">
+    <xs:annotation>
+      <xs:documentation>&lt;!DOCTYPE  hotels  SYSTEM "hotel.dtd"></xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="hotelType">
+    <xs:sequence>
+      <xs:element name="ID">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="5"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value=" TAJ GANJ "/>
+            <xs:enumeration value=" TAJ EXOTICA "/>
+            <xs:enumeration value=" VIVANTA by TAJ "/>
+            <xs:enumeration value=" TAJ DECCAN "/>
+            <xs:enumeration value=" TAJ BEKAL RESORT "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Stars">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="4"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Facilities">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Restaurant,Parking,Internet"/>
+            <xs:enumeration value="Indian therapies,Yoga and meditation,Spaindulges,Parking"/>
+            <xs:enumeration value="Parking,Restaurant,Internet,Chinese Restaurant, Party Lawn"/>
+            <xs:enumeration value="Parking,Fitnesscenter,Meetingrooms,Private dining for party"/>
+            <xs:enumeration value="Spa ,Internet ,Yoga and meditation,parking,internet"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Address">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Taj Ganj,FFatehabad Road Agra Uttar Pradesh 282001"/>
+            <xs:enumeration value="CalwaddoBenaulim, Salcete Goa 403716"/>
+            <xs:enumeration value="105, Race Course Road Coimbatore TamilNadu 641018"/>
+            <xs:enumeration value="Road No. 1, Banjara Hills Hyderabad Telangana State 500034"/>
+            <xs:enumeration value="Kappil Beach Kasargod Kerala 671319"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="budget"/>
+            <xs:enumeration value="luxury"/>
+            <xs:enumeration value="medium luxury"/>
+            <xs:enumeration value="Budget"/>
+            <xs:enumeration value="Luxury"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Available">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="hotelsType">
+    <xs:sequence>
+      <xs:element type="hotelType" name="hotel" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,51 @@
+project Management tool
+-Artifact-->Unique name of the project
+->repository-->Central db cotains all the required dependency in it
+-->POM.XML contains all the configuration for xml
+-->dependency
+    DOM parser
+    Junit
+
+->Also runs test scripts
+->Build
+->java->jar
+->Web app->.war/.ear
+
+Used for GNU make, Apache Ant
+-->Archtype, preset models for generating a maven project
+-->usually-- mvn archtype:generate maven-archtype-archtype
+-->plugins-->core plugins-clean, compile
+    javadoc-create doc file
+    pmd -report
+
+-->POM-project Object Model
+commands:
+    pre-site
+    site
+    post-site
+    site-deploy
+=====================design
+groupId
+artifact
+version
+
+==Main and
+    App.java has the main method
+==Test
+    stores test report and stores the jar file too
+==clean
+    cleans the configured directory
+==Logger Class
+
+Goals:
+    compile
+    package-makes a jar file
+-WebApp
+ Select ArchType
+ generated war
+ Targeted Runtime
+ properties-Apache Tomcat
+
+
+
+

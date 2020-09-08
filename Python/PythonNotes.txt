@@ -1,0 +1,80 @@
+tuples are immutable
+-() is used to  create a tuple
+-Dictionaries are accessed using their keys, The order in which they appear is not the same in which they were inserted
+-Set
+    These are mutable
+    Create only non-Duplicate elements
+
+
+print("Pen:{:.2f}".format(variable)) to print upto 2 variables
+
+Lists:-
+Negative indexing can be used to traverse the list in negative direction
+[-1] can be used to fectch the last element directly
+    List Slicing [start:end]
+    LIST CLONING newlist=oldlist[:]
+    .sort(reverse=True)
+    l1=list(filter((inp).__ne__,l1))
+
+[enumerate(tup)] :
+
+Tuples:-
+create tuples using ()
+
+Dictionaries
+ dict.keys()-fetch all keys
+ dict.values()-fectch all values
+ Adding new Value
+ Variable_name['new_Key']=['new Value1','new Valuw2']
+ check key in dict
+
+ Remove an element from dictionary
+ dict.pop['age',None]
+    **converting keys into values and vice versa:-
+        new_Dict
+        for key,val in old_dict.items():
+            rev_dict[val]=key
+
+            Student_detail['Languages known']=['English','Tamil','Hindi']
+
+        REMOVING ALL given elements from list
+        sets[name]=marks
+        for x in sets.keys():
+            print(x,sets.get(x))
+
+FUNCTIONS:
+lambda functions can be called without a name
+they are a single lined functions
+must have a return value
+zip(list2,list1) ca be used to combine values from two different vaiables into 1
+
+Numpy package
+np.rand(1,100,10)
+
+class and objects:-
+Everything in Python can be called as a class
+-single and multiple inheritance is possible in python
+
+class name
+__init__ is a special type of class
+self has to be used always
+class classname:
+    def __init__(self):
+    var=values
+    __variable_name- to make a variable private
+    @classmethod- used to modify the variables of all the instances of a class
+    @static method- cant access or modify class state
+
+Inheritance in Python
+
+seld and super
+
+WORKING WITH FILES
+    with open('errors.txt',"mpde-r/w/a) as f:
+        read_date=f.read()
+                    f.write()
+        len(file_var) used to fetch number of lines in file
+        .count('RE') gives output for total number of Re present
+        Use csv.DictReader
+
+

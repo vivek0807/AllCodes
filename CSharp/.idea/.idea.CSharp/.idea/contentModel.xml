@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\vivek\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\vivek\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vivek\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CSharp.-204170261.00" t="ExcludeRecursive" />
+    <e p="D:\Documents\Java\Modules\CSharp" t="IncludeFlat">
+      <e p="CSharp" t="IncludeRecursive">
+        <e p="Action.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CSharp.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Delegates.cs" t="Include" />
+          <e p="predicate.cs" t="Include" />
+          <e p="SmartStorage.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CSharp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+used for implementation of n-tier architecture
+user<-presntation<-buisness<--Data<--Db
+
+presentation Layer-client side-All bresentaion
+Buisness-All logics and interaction with the data layer
+
+JEE architecture:
+client tier j2se
+ppt-tier
+b-tier EIS-tier
+
+EJB-->Database access
+
+web-container
+Applet container
+EJB container
+Application client container
+=======================================
+Servlet API
+javax.servlet javax.servlet.http
+
+servlet is the interface,servelet Request/servletResponse
+Generic Serelet,Http Servlet and My servlet are classes
+
+Methods void:
+doget,doPost,doPut,Service
+
+ServletConfig config=getServletConfig()
+
+Request Object
+prams stored as key value pairs
+
+Request headers
+getHeader, getHeaderNames
+
+=================================
+Request Dispatcher
+setAttribute
+getAttribute
+session Management
+Session TRacking-cookies-uses JSessionid
+HTTp is stateless protocol
+cookie is a class
+session.setMaxInactiveInterval(time)
+implement serializable interface
+====================================
+JSP
+Scripting
+java code written inside HTML

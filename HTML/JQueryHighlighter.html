@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function () {
+   $('#button1').click(function () {
+
+       $('div[name$="_Intelligence"]').css("background","yellow");
+       $('div[name$="DAIntelligence"]').css("background","yellow");
+   })
+
+});
+</script>
+<body>
+<div name="DAIntelligence" id="DAI">
+    <p> Distributed Intelligence</p>
+</div>
+<div name="ASI_Intelligence" id="ASI">
+    <p> Artificial Intelligence</p>
+</div>
+<div name="Intelligence-Amp" id="IA">
+    <p>Intelligence Aplificayion</p>
+</div>
+<button id="button1"> Click to see effect</button>
+<table></table>
+</body>
+</html>

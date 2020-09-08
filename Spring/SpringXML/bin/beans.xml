@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="modelObj" class="com.model">
+    <property name="paramC">
+        <map>
+            <entry key="Hi" value="Hello"/>
+            <entry key="Assalam" value="waliqum"/>
+        </map>
+    </property>
+    <property name="pramA" value="Hello"/>
+</bean>
+    <bean id="getsModelObjs" class="com.getsModel">
+       <constructor-arg ref="modelObj"></constructor-arg>
+    </bean>
+</beans>

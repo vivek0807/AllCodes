@@ -1,0 +1,67 @@
+c# basics
+uses .net framework
+can be used for XML applications
+	db operations
+	client server apps
+
+
+CLR-common language Runtime(core provides RE,gets input of unmanaged code, contains JIT,-->to exe)
+	-Reuseable classes and various other types
+	-exception handling
+	-memory management
+	-it does NOT coMPILE
+	-it gets only the compiled source code
+	-Base class library
+	-security
+	-Garbage collector
+	-JIT compiles functions when it is called
+	-cross language(uses Metatdata,binary information)
+CTS-common Type System()
+	-describes the datatypes
+	-defines rules
+	
+CLS-Base class library()
+
+-cross laguage inheritance
+-cross laguage exception handling
+
+ASp-server Side
+
+Assemblies are converted to .exe or .dll
+
+-dll does not contain the main method but the other classes
+	-multipurpose file
+	
+	
+=================================================
+Exceptin Handling
+
+System exception and 
+
+User defined exception
+	
+=================================
+Collection
+Array List-ordered
+List-Array type implementation, uses add or remove	
+Q
+stack
+
+hashtable-key-value
+sorted-List, ordered items based on the key
+not type safe,stored as objects
+
+=============use generics
+use of parameter
+System.collection.Generic
+======================================
+delegates
+built in delegates--> action Action<>,Func,Predicate
+public delegate void action <in T>(T obj)
+prediacate returns boolean value
+-Lambda expression
+
+	
+	
+	
+	

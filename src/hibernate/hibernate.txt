@@ -1,0 +1,47 @@
+-hibernate is an ORM tool that automatically creates the associated mapping of datatypes and
+ fields from the java code to the Oracle/mysql or any other database
+
+ - no insert or select query is required
+ -cfg file needed, hibernate.cgf.xml file
+    hibernate.dialect
+  <property name="hibernate.connection.driver_class" >jdbc class name</property>
+    hibernate.connecton.url=url of the database
+    hibernate.connecton.username=username of the database
+    hbm2ddl.auto = auto validation
+ -mapping file in xml file or annotations
+ - is used in the data layer
+
+ mthods:
+ create
+ validate
+ update
+ create-drop
+
+ Plain old java object class
+  -unique identifier and attributes with getters and setters
+
+  hibernate
+  configuration-reads all properties
+  session factory-connection establisher
+  Session-physical connection, query executer
+
+  ======================================================
+            MAPPING
+types:
+@one2one (cascade- attribute is mandatory while apllying attributes,trsnsfers operations done one to one,
+            Cascade  from parent to child, All, None) deleting parent also deletes child
+
+@one to many (bi-directional) relationship
+many2many (fetch how to get the child object,Lazy/Eager)
+many2one mappedby
+-Fetch attribuite decides how to retrive data(Lazy/Eager)
+-class must have embeddable annotation for composite key
+-class must implement serializable inteface
+-it must have a defauly constructor
+-it must have a primary key of its own
+
+MappedBy-used in hibernate to tell which variable we are representing the parent class
+==================================================
+Spring MVC with hibernate
+
+-spring basically used for developing web application using java

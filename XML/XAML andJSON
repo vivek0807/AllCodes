@@ -1,0 +1,47 @@
+
+XML declarations
+xml elements
+xml tags
+xml attributes
+xml text
+Entities
+XSD-XML schema definition that holds more specific definition about the xml file and the type of attribute
+DTD-Document type definition explains about the attribute.
+    defines the structure
+    decides the attributes
+    <!doctype person[
+    <!ELEMENT person(id,name)>
+    <!ELEMENT id (#id)>
+    <!ELEMENT name (#name)>
+    <!ENTITY logo System "Filename.format" >
+    ]>
+display capablities
+doucument oreiented
+Simple type
+HTML and XML go hand in hand
+can be read by various programs and used by DOM and SAX
+XML shchema XSP
+maxexlcusive, min exclusive
+Attributes:-
+id
+currency
+<pi> processing instruction may include 0 or more arguments
+<?target arg 1 2?>
+<rootElement>
+define the sturture of the xml file
+<rootElement>
+<xs:sequence>
+    <xs:datype>
+<xs:sequence>
+X<xs:all>
+<xsd:import namespace=>
+namsespace:
+<someElement xmlns:pfx ="name"> do not apply to attributes
+=================================================
+JSON
+javascript object notation and independent and light weight
+only supports text and number,object, null or an boolean value
+data oriented
+-can be converted to javaScript Object
+[]array
+{}object

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    x=0;
+    $(document).ready(function () {
+        $(window).resize(function () {
+            $('span').text(x+=1);
+        })
+    });
+</script>
+<body>
+
+<p id="resize">
+Window reisized <span >0</span> times.
+</p>
+<p id="test">
+    Try resizing your browser
+</p>
+</body>
+</html>

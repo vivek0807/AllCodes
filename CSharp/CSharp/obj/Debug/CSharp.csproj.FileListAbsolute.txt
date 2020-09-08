@@ -1,0 +1,10 @@
+D:\Documents\Java\LearnJava\DsUsingJava\CSharp\CSharp\bin\Debug\CSharp.exe
+D:\Documents\Java\LearnJava\DsUsingJava\CSharp\CSharp\bin\Debug\CSharp.pdb
+D:\Documents\Java\LearnJava\DsUsingJava\CSharp\CSharp\obj\Debug\CSharp.csprojAssemblyReference.cache
+D:\Documents\Java\LearnJava\DsUsingJava\CSharp\CSharp\obj\Debug\CSharp.exe
+D:\Documents\Java\LearnJava\DsUsingJava\CSharp\CSharp\obj\Debug\CSharp.pdb
+D:\Documents\Java\Modules\CSharp\CSharp\bin\Debug\CSharp.exe
+D:\Documents\Java\Modules\CSharp\CSharp\bin\Debug\CSharp.pdb
+D:\Documents\Java\Modules\CSharp\CSharp\obj\Debug\CSharp.csprojAssemblyReference.cache
+D:\Documents\Java\Modules\CSharp\CSharp\obj\Debug\CSharp.exe
+D:\Documents\Java\Modules\CSharp\CSharp\obj\Debug\CSharp.pdb

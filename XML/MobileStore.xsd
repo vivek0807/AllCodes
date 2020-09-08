@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mobilestore" type="mobilestoreType"/>
+  <xs:complexType name="mobileType">
+    <xs:sequence>
+      <xs:element name="brand">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Nokia"/>
+            <xs:enumeration value="Samsung"/>
+            <xs:enumeration value="Sony"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="os">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Symbian"/>
+            <xs:enumeration value="Android"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="model">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="C6"/>
+            <xs:enumeration value="Galaxy"/>
+            <xs:enumeration value="Experia"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ram">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1gb"/>
+            <xs:enumeration value="2gb"/>
+            <xs:enumeration value="512mb"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="internal">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="8gb"/>
+            <xs:enumeration value="16gb"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mobilestoreType">
+    <xs:sequence>
+      <xs:element type="mobileType" name="mobile" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

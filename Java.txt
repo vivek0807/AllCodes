@@ -1,0 +1,267 @@
+
+-invented by james goosling
+-platform independent
+-portable
+-architecture neutral
+-JVM translates the java code to native code that a machine will understand[JVM IS PLATFORM DEPENDENT]
+-JRE consists of teh JVM and libraries and core classes
+-java compiler-javac
+-java documenter- javadoc
+-java archiver -jar
+
+
+-development Env
+-Execution Env-JDK depends on OS
+				-byte code converter as the .class file that execute on JVM
+				-the JRE further translates to native language
+				
+-Editions Of java
+	Standard- J2SE	OR JSE
+	Enterprise -J2EE- tools to develop standlone apps & servelets
+	Micro Edition- J2ME- for mobile applications and hand held devices
+	
+=====================
+DATA TYPES & OPERATORS
+identifiers are names given to class,variables and methods
+$name,_name
+-objects memory are allocated in heap
+
+Types of conversion- 
+	IMPLICIT CONVERSION--when lower size data type assigned to higher size data type conversion is done automaticllay
+	EXPLICIT CONVERSION--Typecasting, to lower sized data type
+	
+	-If there are two operators of equal priority, then exression is evaluated as per associativity
+	-only for conditional operator associativity folow right to left
+===============
+
+
+CONTROL STRUCTURES	
+
+===============
+
+===============
+Wrapper class
+there are 8 wrapper classes that bind the primitive data type to reference 
+-All the wrapper class has inbuilt methods that help in certain operations
+-Inter i=new Integer(0);
+-for value= int j=i.intValue();
+-Integer i=10; Boxing
+int j=i Unboxing;
+-wrapper classes are contained in java.lang package
+Available since java 5
+** not for every primitive dataType there is a wrapper class
+===================
+Packages
+-They provide access restriction
+-can contain classes subpackages interfaces
+classpath can be set as--%classpath%<location of the .class file>
+=====================================
+Static methods
+-static member can access static variables only
+-non static can access both kind of members
+- static block can used to run a direct code before main
+================================
+Arrays
+Memory for array is allocated in heap and base address is stored in stack
+Arrays.sort(), Arrays.copyOf,Arrays.binarySearch(),Arrays.equals
+-Varargs can be used if the number of elements to be passed are unknown but is of same data type
+==================================
+Strings
+-String pool is a place where Strings are stored
+-no new objects are created if same already exist
+- == does not work for String, it return True for Strings
+-StringBuffer is thread safe
+-StringBuilder is faster
+
+===========================================
+Exception Handling
+-When dynamic linking error happens, the machine throws an error
+-[java.lang.Object ] class is highest in hierarchy in java
+-The class RuntimeException and all its subclasses are unchecked exceptions
+-The class Exception and all its subclasses that are not also subclasses of RuntimeException are checked exceptions
+-When there's a return statement in both catch and finally block,
+    then return in finally is what is actually returned to the function.
+==========================================
+INHERITANCE
+
+if a relationship b/w super class and extending class is "IS A" or "IS TYPE OF"  then it is called inheritance
+- attributes and methods in super class are automatically inherited in child class
+- on creation of object of child class the parent class onstructor gets executed first and then the child class
+-Multiple inheritance in not supported
+
+======================================
+        ==============
+-overriding method cannot have a harder access modifier
+-can be called as new Classname();
+-Methd overrriding is an example of run time plymorphism
+-All methods declared in interface are PUBLIC AND ABSTRACT by default
+-final methods can never be abstract
+-For runtime poylorphism, method names must be same in super and extended class.
+        ==============
+===========================================
+        ==============
+Polymorphism
+-upcasting child class used to create parent class--- Parent p=new child()
+ or parent =(parent) childobject();
+-instanceOf is like equals used to compare object types
+-method overrriding can be called as method overriding
+- A method with the same signature as a private final method in class X can be implemented in a subclass of X.
+OVERRIDING EQUALS METHOD
+@Override
+    public  boolean equals(Object o){
+        if(this==o)
+            return  true;
+         if(!(o instanceof Customer))
+             return false;
+         Customer c=(Customer)o;
+         return  Objects.equals(panno,c.panno) && Objects.equals(emailid,c.emailid);
+    }
+- ABSTRACT class can only have abstract methods
+            ================
+================================================
+LAMBDA EXPRESSION
+-was available after java 8
+-Types Predicate & consumer ,Predicate , Supplier
+===============================================
+Exception Handling
+-A Try block may not have catch block(Use finally)
+-Checked Exceptions- Raised during compile time like- SQL and FileNotFound/ IOException/ClassCast
+-Abnormalities during runtime
+-Unchecked exceptions- not handled during runtime- Runtime or ArrayOutOfBoundsException/NuLLPointer/NumberFormat
+-Hierarchy of exceptions is in the order of sub class to super class towards main and then Handled by JVM
+-To create a custom resource try block one must use AutoClosable Interface and Override the closable method
+- For checked exceptions one must use Throws keyword
+-When a method overrides the method in the parent class, it can throw no exceptions ,
+    it can throw subclasses of exceptions thrown by overridden method
+-Check Automatic resource Management in java
+-The class Exception and all its subclasses that are not also subclasses of RuntimeException are checked exceptions
+-java.lang.object is parent most class
+-if there is a return statement in catch block, It will be avoided and finally block's return will get executed
+========================================================
+-Collection And Generics
+-List Allow Duplicates
+-Set,HashSet,TreeSet,LinkedHashSet does not allow duplicates
+-Maps=Key-Value Pair
+_treeMap stores values in a sorted manner on basis of keys
+------Iteration
+List iterator iterates both forward and backward a list
+--generics are ways to define data type of a List
+--It can pass multiple values.
+-Map is not a type of collection
+-Comparable interface allows Collections to be reordered based on a chosen key.
+-Stream allows automatic iteration with methods such as filter, reduce,find ,match, sort
+-Collectors-Sum/Average/min/max
+
+==========================================================
+JDBC DRIVERS
+
+jdbc can connect thru oracle db2 and MySQL
+-java.sql package
+-4 types of jdbc drivers JDBC-ODBC(uses bridge), Native(binary functions),
+        JAva/Net(Allows direct call),Net Protocol(direct protocol)
+-com.mysql.jdbc.Driver-jdbc:mysql://deja-vu/w3schol
+-Driver Interface handles communication with the db server
+-executeUpdate/return no of columns affected
+-executeQuery/returns resultset
+-execute, returns boolean
+preparedStatement ps=con.preparedStatement("insert into employee values(?,?,?)")
+ps.setInt(1,1)
+ps.setString(2,"Mini")
+Resultset rs=ps.executeUpdate(2,"Mini")
+rs.getInt(1)
+Metadata methods:
+getcolumnsname
+getcoulumnCount
+getColumnCount
+
+the set should be “wrapped” using the Collections.synchronizedSortedSet method.
+
+Number of words 10
+
+Words with the count
+
+be: 1
+
+collections: 1
+
+method: 1
+
+set: 1
+
+should: 1
+
+synchronizedsortedset: 1
+
+the: 2
+
+using: 1
+
+wrapped: 1 // should be "wrapped": 1
+
+As per description , has to split the sentence based on this special (, ; : . ? !)
+===============================================
+        REGULAR EXPRESSIONS
+
+
+
+====================================================================
+JUNIT
+first level
+doneby developer and is cheapest
+-TestCase class
+-Use of Annotations -Test Suits,Test Runners,JUNIT
+
+============================================================
+-introduced in java 4
+use of string pattern
+RegEx
+"[a-z]+"- match all lower case alphabets
+-pattern
+-matcher
+-PatternSyntaxException
+    Pattern p=Pattern.compile
+    Mather matcher=p.matches(text)
+    mathcrt.find
+    matcher.group()
+    ^except
+    -range
+    &&include
+
+    Quantifier
+    ?one or 0
+    +one or more
+    *0or more
+    {n}times
+    {n,}n or more
+    x{n,m}n but less than m
+
+    meta chars
+    \d digits
+    \s white space
+    \w word chars
+    \b boundary
+
+
+==============================================
+            JUNIT
+@test-specfies test mthod
+@beforeclass
+@after-after each class
+@ignore- for ignoring all test classes of this class
+@test to test a method.with void
+
+using Assert
+assertEquals
+expected
+
+several test cases are combined to form a test suite
+
+===============================================
+Lambda Expression
+-Functional interface- one abstract method-in java8 but can have default and static methods
+-A functional interface can be directly implemented using Lambda expression
+-enbles functional programming-
+-passes fucntion as data
+-return type is not required in case of java8+
+-inline lambda exp firstlabda(()->sout));
+-predicate,Cinsumer,Function,Supplier , UnaryOperator,BinaryOperator

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a94bc22-e88b-4229-8f2b-d5225129612e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+              <folding>
+                <marker date="1586857547215" expanded="true" signature="93:610" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="246:338" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="375:471" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="508:604" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="651:1041" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="730:790" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="819:893" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="931:1038" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1081:1567" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1188:1278" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1315:1413" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1455:1561" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1590:3483" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1644:1980" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1695:1812" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1836:1952" ph="{...}" />
+                <marker date="1586857547215" expanded="true" signature="1988:3481" ph="/* public static void Main(string[] args) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSharp/Action.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <marker date="1586898261594" expanded="true" signature="6:62" ph="..." />
+                <marker date="1586898261594" expanded="true" signature="80:2020" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="116:2018" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="549:1108" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="1213:1418" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="1270:1395" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="1472:1662" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="1525:1652" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="1774:2003" ph="{...}" />
+                <marker date="1586898261594" expanded="true" signature="1819:1923" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/Properties/predicate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <marker date="1586896839108" expanded="true" signature="6:47" ph="..." />
+                <marker date="1586896839108" expanded="true" signature="49:1684" ph="/* namespace CSharp.Properties ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/Properties/SmartStorage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <marker date="1586874221533" expanded="true" signature="42:1481" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="117:394" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="269:387" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="422:771" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="514:645" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="707:765" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="800:1157" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="892:1023" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="1089:1142" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="1213:1479" ph="{...}" />
+                <marker date="1586874221533" expanded="true" signature="1237:1462" ph="/* static void Main(string[] args) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSharp/Properties/Delegates.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <folding>
+                <marker date="1586896839131" expanded="true" signature="6:47" ph="..." />
+                <marker date="1586896839131" expanded="true" signature="76:2552" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="105:604" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="425:594" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="646:2550" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="721:2544" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="950:1369" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="1451:1863" ph="{...}" />
+                <marker date="1586896839131" expanded="true" signature="1911:2207" ph="/* public static void Main(string[] args)   //DO NOT change the 'Main' method signature ... */" />
+                <marker date="1586896839131" expanded="true" signature="2314:2508" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>increment</find>
+      <find>c</find>
+      <find>Storage</find>
+      <find>search</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CSharp/Properties/predicate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/76/dd644d38/TextWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/Action.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/Properties/Delegates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/c1/7547a795/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CSharp/Properties/SmartStorage.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/CSharp/Program.cs" />
+        <option value="$PROJECT_DIR$/CSharp/Properties/SmartStorage.cs" />
+        <option value="$PROJECT_DIR$/CSharp/Properties/predicate.cs" />
+        <option value="$PROJECT_DIR$/CSharp/Properties/Delegates.cs" />
+        <option value="$PROJECT_DIR$/CSharp/Action.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1374" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/CSharp/bin/Debug/CSharp.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSharp/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CSharp/CSharp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a94bc22-e88b-4229-8f2b-d5225129612e" name="Default Changelist" comment="" />
+      <created>1585040914328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585040914328</updated>
+      <workItem from="1585040918371" duration="98000" />
+      <workItem from="1585041100436" duration="10333000" />
+      <workItem from="1585125679671" duration="6874000" />
+      <workItem from="1585229066869" duration="13322000" />
+      <workItem from="1585299401719" duration="16381000" />
+      <workItem from="1585477261024" duration="11413000" />
+      <workItem from="1585492555654" duration="12005000" />
+      <workItem from="1585646197382" duration="1601000" />
+      <workItem from="1586857312095" duration="12438000" />
+      <workItem from="1586887620717" duration="10129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94594000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20937264" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962208" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50037795" side_tool="true" weight="0.5055118" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.48031497" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32955405" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/76/dd644d38/TextWriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15300">
+          <caret line="1026" column="8" selection-start-line="1026" selection-start-column="8" selection-end-line="1026" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/c1/7547a795/Console.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="1541" column="6" selection-start-line="1541" selection-start-column="6" selection-end-line="1541" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+          <folding>
+            <marker date="1586857547215" expanded="true" signature="93:610" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="246:338" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="375:471" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="508:604" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="651:1041" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="730:790" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="819:893" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="931:1038" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1081:1567" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1188:1278" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1315:1413" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1455:1561" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1590:3483" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1644:1980" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1695:1812" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1836:1952" ph="{...}" />
+            <marker date="1586857547215" expanded="true" signature="1988:3481" ph="/* public static void Main(string[] args) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/Properties/SmartStorage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1586874221533" expanded="true" signature="42:1481" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="117:394" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="269:387" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="422:771" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="514:645" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="707:765" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="800:1157" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="892:1023" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="1089:1142" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="1213:1479" ph="{...}" />
+            <marker date="1586874221533" expanded="true" signature="1237:1462" ph="/* static void Main(string[] args) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/Properties/Delegates.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <marker date="1586896839131" expanded="true" signature="6:47" ph="..." />
+            <marker date="1586896839131" expanded="true" signature="76:2552" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="105:604" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="425:594" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="646:2550" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="721:2544" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="950:1369" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="1451:1863" ph="{...}" />
+            <marker date="1586896839131" expanded="true" signature="1911:2207" ph="/* public static void Main(string[] args)   //DO NOT change the 'Main' method signature ... */" />
+            <marker date="1586896839131" expanded="true" signature="2314:2508" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/Properties/predicate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <marker date="1586896839108" expanded="true" signature="6:47" ph="..." />
+            <marker date="1586896839108" expanded="true" signature="49:1684" ph="/* namespace CSharp.Properties ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharp/Action.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1586898261594" expanded="true" signature="6:62" ph="..." />
+            <marker date="1586898261594" expanded="true" signature="80:2020" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="116:2018" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="549:1108" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="1213:1418" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="1270:1395" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="1472:1662" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="1525:1652" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="1774:2003" ph="{...}" />
+            <marker date="1586898261594" expanded="true" signature="1819:1923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

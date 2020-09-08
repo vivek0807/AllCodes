@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select type="date">
+    <option label="Republic Day">2017-01-26</option>
+    <option label="May Day">2017-05-01</option>
+    <option label="Independence Day">2017-08-15</option>
+</select>
+<hr>
+<input type="date" id="date" min="2017-01-26" max="2017-08-15">
+<hr>
+<input type="date"  name="date" list="holidays">
+<datalist id="holidays">
+    <option label="Republic Day">2017-01-26</option>
+    <option label="May Day">2017-05-01</option>
+    <option label="Independence Day">2017-08-15</option>
+</datalist>
+<hr>
+<input type="date" name="date" list="holidays">
+<select >
+    <option label="Republic Day">2017-01-26</option>
+    <option label="May Day">2017-05-01</option>
+    <option label="Independence Day">2017-08-15</option>
+</select>
+<form>
+    <input type="number" pattern="[0-9]{10}"/>
+    <input type="text" pattern="[0-9]{10}"/>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
